@@ -47,7 +47,7 @@ Using the default **deploy.yml** the following is deployed:
    * Configure the ESXi hosts
    * Create and configure a Distributed Switch
    * Add ESXi hosts to vCenter (3 hosts in the "Compute" vSphere cluster and 2 hosts in the "Edge" cluster)
-1. Configure NSX-T:
+1. Deploy NSX-T:
    * Deploy NSX Manager
    * Register vCenter as a Compute Manager in NSX Manager
    * Create NSX-T Transport Zones
@@ -61,6 +61,10 @@ Using the default **deploy.yml** the following is deployed:
 Ansible Play recap from 14/04/2020:
 
 ![](images/play-recap.png)
+
+The virtual machines deployed when using the default settings:
+
+![](images/VMs.png)
 
 
 ### Diagrams
